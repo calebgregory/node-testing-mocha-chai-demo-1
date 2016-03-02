@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "PORT=7357 mocha --recursive --compilers 'js:babel-register'",
+    "test": "NODE_ENV=test PORT=7357 mocha --recursive --compilers 'js:babel-register'",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {

@@ -1,6 +1,5 @@
 'use strict'
 
-process.env.NODE_ENV
 const processToConfig = {
   'development': './env/dev',
   'test': './env/test'
