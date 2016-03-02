@@ -13,7 +13,7 @@ describe('ava', () => {
       expect(newPlayer['name']).to.equal(name)
     })
 
-    it.only('creates a player with an "_id"', () => {
+    it('creates a player with an "_id"', () => {
       const name = 'ANDERSON'
       const newPlayer = ava.player({ name })
 
